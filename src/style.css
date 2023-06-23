@@ -12,4 +12,10 @@
   /* modal */
 }
 
+@layer utilities{
+  /* BGs */
+  .bg-texture {
+    background-image: url('./assets/textura_min.jpg');
+  }
+}
 
