@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Debug */
+/* *  {
+  outline: 1px solid red !important;
+} */
+
+
+@layer components {
+  /* modal */
+}
+
+
