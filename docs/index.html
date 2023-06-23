@@ -13,8 +13,8 @@
 			rel="stylesheet" />
 
 		<title>Miiler Santanilla Esponisa</title>
-		<script type="module" crossorigin src="./assets/index-b944af2a.js"></script>
-		<link rel="stylesheet" href="./assets/index-24d18b7a.css">
+		<script type="module" crossorigin src="./assets/index-418d8cef.js"></script>
+		<link rel="stylesheet" href="./assets/index-c6fc14c9.css">
 	</head>
 
 	<body
@@ -65,7 +65,7 @@
 		<main class="container mx-auto flex flex-col items-center justify-center">
 			<!-- Card -->
 			<div
-				class="bg-fix mb-0 mt-10 rounded-xl bg-cover bg-center bg-no-repeat md:my-16 md:shadow md:drop-shadow-md md:bg-texture">
+				class="bg-fix md:bg-texture mb-0 mt-10 rounded-xl bg-cover bg-center bg-no-repeat md:my-16 md:shadow md:drop-shadow-md">
 				<div class="flex rounded-xl max-md:flex-col md:max-w-md md:bg-white/50">
 					<!-- Profile -->
 					<div class="max-md:flex max-md:justify-center md:relative md:w-16">
@@ -154,17 +154,23 @@
 
 		<!-- Footer -->
 		<footer
-			class="mt-12 bg-cover bg-center bg-no-repeat py-4"
+			class="mt-12 bg-cover bg-center bg-no-repeat py-4 max-sm:px-2 relative "
 			style="background-image: url(./assets/textura_min-24c1cc11.jpg)">
+
+      <!--  -->
+      <div class="absolute w-full h-full top-0 left-0 inset-0 z-0 backdrop-blur-[2px] backdrop-brightness-95">
+
+      </div>
+
 			<div
-				class="container mx-auto flex items-center justify-between [&_img]:max-h-11">
+				class="container mx-auto flex items-center justify-around  z-[1] relative">
 				<!-- signature -->
 				<div>
-					<img src="./assets/firma_min-24700c50.png" alt="" />
+					<img class="max-h-11" src="./assets/firma_min-24700c50.png" alt="" />
 				</div>
 				<!-- taxter -->
 				<div>
-					<img src="./assets/logotapxter-3585e0cb.svg" alt="" />
+					<img class="max-h-8" src="./assets/logotapxter-3585e0cb.svg" alt="" />
 				</div>
 			</div>
 		</footer>
