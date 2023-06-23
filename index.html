@@ -152,16 +152,14 @@
 
 		<!-- Footer -->
 		<footer
-			class="mt-12 bg-cover bg-center bg-no-repeat py-2 max-sm:px-2 relative "
+			class="relative mt-12 bg-cover bg-center bg-no-repeat py-2 max-sm:px-2"
 			style="background-image: url(./src/assets/textura_min.jpg)">
-
-      <!--  -->
-      <div class="absolute w-full h-full top-0 left-0 inset-0 z-0 backdrop-blur-[2px] backdrop-brightness-95">
-
-      </div>
+			<!--  -->
+			<div
+				class="absolute inset-0 left-0 top-0 z-0 h-full w-full backdrop-blur-[2px] backdrop-brightness-95"></div>
 
 			<div
-				class="container mx-auto flex items-center justify-around  z-[1] relative">
+				class="container relative z-[1] mx-auto flex items-center justify-around">
 				<!-- signature -->
 				<div>
 					<img class="max-h-14" src="./src/assets/firma_min.png" alt="" />
@@ -195,8 +193,9 @@
 						@click.away="toggleM1"
 						class="flex max-h-full flex-col overflow-hidden rounded-xl border bg-llanowhite-2 shadow-sm drop-shadow">
 						<!-- Modal header -->
-						<div class="flex justify-between border-b px-4 py-3">
-							<h3 class="text-2xl font-bold text-palette-3">
+						<div
+							class="flex flex-row-reverse justify-between border-b px-4 py-3 sm:flex-row">
+							<h3 class="grow text-center text-2xl font-bold text-palette-3">
 								Grupo Cantar del Llano
 							</h3>
 							<button
@@ -391,8 +390,11 @@
 						@click.away="toggleM2"
 						class="flex max-h-full flex-col overflow-hidden rounded-xl border bg-llanowhite-2 shadow-sm drop-shadow">
 						<!-- Modal header -->
-						<div class="flex justify-between border-b px-4 py-3">
-							<h3 class="text-2xl font-bold text-palette-3">Biografía</h3>
+						<div
+							class="flex flex-row-reverse justify-between border-b px-4 py-3 sm:flex-row">
+							<h3 class="grow text-center text-2xl font-bold text-palette-3">
+								Biografía
+							</h3>
 							<button
 								@click="toggleM2"
 								type="button"
@@ -499,8 +501,10 @@
 						@click.away="toggleM3"
 						class="flex max-h-full flex-col overflow-hidden rounded-xl border bg-llanowhite-2 shadow-sm drop-shadow">
 						<!-- Modal header -->
-						<div class="flex justify-between border-b px-4 py-3">
-							<h3 class="text-2xl font-bold text-palette-3">
+
+						<div
+							class="flex flex-row-reverse justify-between border-b px-4 py-3 sm:flex-row">
+							<h3 class="grow text-center text-2xl font-bold text-palette-3">
 								FUNDACION ARTISTICA "CANTAR DEL LLANO"
 							</h3>
 							<button
